@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rake db:migrate db:seed wagon:setup -t
+
+$STI_SCRIPTS_PATH/run
