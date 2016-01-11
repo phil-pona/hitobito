@@ -8,7 +8,7 @@
 # Run this script with the same ruby version activated as on the target server.
 # Database and transifex environment variables have to be set.
 
-BUNDLE_WITHOUT='development:test:metrics:console'
+BUNDLE_WITHOUT='development:metrics:console'
 EXCLUDE_DIRS='doc spec test vendor/cache log tmp .rspec Wagonfile.ci \
               .rubocop.yml .editorconfig .project rubocop-* .tx'
 
